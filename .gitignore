@@ -25,3 +25,8 @@
 docker-compose.custom.yml
 
 .DS_Store
+
+/workspace/insecure_id_rsa
+/workspace/insecure_id_rsa.ppk
+/workspace/insecure_id_rsa.pub
+
