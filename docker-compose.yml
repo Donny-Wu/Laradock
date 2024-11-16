@@ -799,10 +799,10 @@ services:
         - "${MYSQL_PORT}:3306"
       networks:
         - backend
-### MySQL READ 1################################################
+### MySQL READ ################################################
     mysql_read:
       build:
-        context: ./mysql
+        context: ./mysql_read
         args:
           - MYSQL_VERSION=${MYSQL_VERSION}
       environment:
